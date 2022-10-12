@@ -14,9 +14,9 @@ sign_in = driver.find_element(By.XPATH, "/html/body/div[1]/header/nav/div/a[2]")
 sign_in.click()
 
 email = driver.find_element(By.XPATH, '//*[@id="username"]')
-email.send_keys("0430653816")
+email.send_keys("phonenumber")
 password = driver.find_element(By.XPATH, '//*[@id="password"]')
-password.send_keys("stunnedd")
+password.send_keys("password")
 sign_in_2 = driver.find_element(By.XPATH, '//*[@id="organic-div"]/form/div[3]/button')
 sign_in_2.click()
 
